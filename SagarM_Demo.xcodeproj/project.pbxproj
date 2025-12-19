@@ -1,0 +1,606 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		186C4C192EF50690005F8C54 /* SagarM_demo.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 186C4C172EF50690005F8C54 /* SagarM_demo.xcdatamodeld */; };
+		186C4C1E2EF50B29005F8C54 /* Constatnt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 186C4C1D2EF50B29005F8C54 /* Constatnt.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		186C4BAB2EF3D451005F8C54 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 186C4B892EF3D44E005F8C54 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 186C4B902EF3D44E005F8C54;
+			remoteInfo = SagarM_Demo;
+		};
+		186C4BB52EF3D451005F8C54 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 186C4B892EF3D44E005F8C54 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 186C4B902EF3D44E005F8C54;
+			remoteInfo = SagarM_Demo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		186C4B912EF3D44E005F8C54 /* SagarM_Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SagarM_Demo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		186C4BAA2EF3D451005F8C54 /* SagarM_DemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SagarM_DemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		186C4BB42EF3D451005F8C54 /* SagarM_DemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SagarM_DemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		186C4C182EF50690005F8C54 /* SagarM_demo.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = SagarM_demo.xcdatamodel; sourceTree = "<group>"; };
+		186C4C1D2EF50B29005F8C54 /* Constatnt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constatnt.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		186C4BBC2EF3D451005F8C54 /* Exceptions for "SagarM_Demo" folder in "SagarM_Demo" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = 186C4B902EF3D44E005F8C54 /* SagarM_Demo */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		186C4B932EF3D44E005F8C54 /* SagarM_Demo */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				186C4BBC2EF3D451005F8C54 /* Exceptions for "SagarM_Demo" folder in "SagarM_Demo" target */,
+			);
+			path = SagarM_Demo;
+			sourceTree = "<group>";
+		};
+		186C4BAD2EF3D451005F8C54 /* SagarM_DemoTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = SagarM_DemoTests;
+			sourceTree = "<group>";
+		};
+		186C4BB72EF3D451005F8C54 /* SagarM_DemoUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = SagarM_DemoUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		186C4B8E2EF3D44E005F8C54 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		186C4BA72EF3D451005F8C54 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		186C4BB12EF3D451005F8C54 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		186C4B882EF3D44E005F8C54 = {
+			isa = PBXGroup;
+			children = (
+				186C4C1A2EF50A4C005F8C54 /* Constants */,
+				186C4C172EF50690005F8C54 /* SagarM_demo.xcdatamodeld */,
+				186C4B932EF3D44E005F8C54 /* SagarM_Demo */,
+				186C4BAD2EF3D451005F8C54 /* SagarM_DemoTests */,
+				186C4BB72EF3D451005F8C54 /* SagarM_DemoUITests */,
+				186C4B922EF3D44E005F8C54 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		186C4B922EF3D44E005F8C54 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				186C4B912EF3D44E005F8C54 /* SagarM_Demo.app */,
+				186C4BAA2EF3D451005F8C54 /* SagarM_DemoTests.xctest */,
+				186C4BB42EF3D451005F8C54 /* SagarM_DemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		186C4C1A2EF50A4C005F8C54 /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+				186C4C1D2EF50B29005F8C54 /* Constatnt.swift */,
+			);
+			path = Constants;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		186C4B902EF3D44E005F8C54 /* SagarM_Demo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 186C4BBD2EF3D451005F8C54 /* Build configuration list for PBXNativeTarget "SagarM_Demo" */;
+			buildPhases = (
+				186C4B8D2EF3D44E005F8C54 /* Sources */,
+				186C4B8E2EF3D44E005F8C54 /* Frameworks */,
+				186C4B8F2EF3D44E005F8C54 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				186C4B932EF3D44E005F8C54 /* SagarM_Demo */,
+			);
+			name = SagarM_Demo;
+			packageProductDependencies = (
+			);
+			productName = SagarM_Demo;
+			productReference = 186C4B912EF3D44E005F8C54 /* SagarM_Demo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		186C4BA92EF3D451005F8C54 /* SagarM_DemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 186C4BC22EF3D451005F8C54 /* Build configuration list for PBXNativeTarget "SagarM_DemoTests" */;
+			buildPhases = (
+				186C4BA62EF3D451005F8C54 /* Sources */,
+				186C4BA72EF3D451005F8C54 /* Frameworks */,
+				186C4BA82EF3D451005F8C54 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				186C4BAC2EF3D451005F8C54 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				186C4BAD2EF3D451005F8C54 /* SagarM_DemoTests */,
+			);
+			name = SagarM_DemoTests;
+			packageProductDependencies = (
+			);
+			productName = SagarM_DemoTests;
+			productReference = 186C4BAA2EF3D451005F8C54 /* SagarM_DemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		186C4BB32EF3D451005F8C54 /* SagarM_DemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 186C4BC52EF3D451005F8C54 /* Build configuration list for PBXNativeTarget "SagarM_DemoUITests" */;
+			buildPhases = (
+				186C4BB02EF3D451005F8C54 /* Sources */,
+				186C4BB12EF3D451005F8C54 /* Frameworks */,
+				186C4BB22EF3D451005F8C54 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				186C4BB62EF3D451005F8C54 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				186C4BB72EF3D451005F8C54 /* SagarM_DemoUITests */,
+			);
+			name = SagarM_DemoUITests;
+			packageProductDependencies = (
+			);
+			productName = SagarM_DemoUITests;
+			productReference = 186C4BB42EF3D451005F8C54 /* SagarM_DemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		186C4B892EF3D44E005F8C54 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1640;
+				LastUpgradeCheck = 1640;
+				TargetAttributes = {
+					186C4B902EF3D44E005F8C54 = {
+						CreatedOnToolsVersion = 16.4;
+					};
+					186C4BA92EF3D451005F8C54 = {
+						CreatedOnToolsVersion = 16.4;
+						TestTargetID = 186C4B902EF3D44E005F8C54;
+					};
+					186C4BB32EF3D451005F8C54 = {
+						CreatedOnToolsVersion = 16.4;
+						TestTargetID = 186C4B902EF3D44E005F8C54;
+					};
+				};
+			};
+			buildConfigurationList = 186C4B8C2EF3D44E005F8C54 /* Build configuration list for PBXProject "SagarM_Demo" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 186C4B882EF3D44E005F8C54;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 186C4B922EF3D44E005F8C54 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				186C4B902EF3D44E005F8C54 /* SagarM_Demo */,
+				186C4BA92EF3D451005F8C54 /* SagarM_DemoTests */,
+				186C4BB32EF3D451005F8C54 /* SagarM_DemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		186C4B8F2EF3D44E005F8C54 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		186C4BA82EF3D451005F8C54 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		186C4BB22EF3D451005F8C54 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		186C4B8D2EF3D44E005F8C54 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				186C4C192EF50690005F8C54 /* SagarM_demo.xcdatamodeld in Sources */,
+				186C4C1E2EF50B29005F8C54 /* Constatnt.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		186C4BA62EF3D451005F8C54 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		186C4BB02EF3D451005F8C54 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		186C4BAC2EF3D451005F8C54 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 186C4B902EF3D44E005F8C54 /* SagarM_Demo */;
+			targetProxy = 186C4BAB2EF3D451005F8C54 /* PBXContainerItemProxy */;
+		};
+		186C4BB62EF3D451005F8C54 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 186C4B902EF3D44E005F8C54 /* SagarM_Demo */;
+			targetProxy = 186C4BB52EF3D451005F8C54 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		186C4BBE2EF3D451005F8C54 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3ZZZNS9B96;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SagarM_Demo/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = "";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "sample.SagarM-Demo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		186C4BBF2EF3D451005F8C54 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3ZZZNS9B96;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SagarM_Demo/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = "";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "sample.SagarM-Demo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		186C4BC02EF3D451005F8C54 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = 3ZZZNS9B96;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		186C4BC12EF3D451005F8C54 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = 3ZZZNS9B96;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		186C4BC32EF3D451005F8C54 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3ZZZNS9B96;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "sample.SagarM-DemoTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SagarM_Demo.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/SagarM_Demo";
+			};
+			name = Debug;
+		};
+		186C4BC42EF3D451005F8C54 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3ZZZNS9B96;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "sample.SagarM-DemoTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SagarM_Demo.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/SagarM_Demo";
+			};
+			name = Release;
+		};
+		186C4BC62EF3D451005F8C54 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3ZZZNS9B96;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "sample.SagarM-DemoUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SagarM_Demo;
+			};
+			name = Debug;
+		};
+		186C4BC72EF3D451005F8C54 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3ZZZNS9B96;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "sample.SagarM-DemoUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SagarM_Demo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		186C4B8C2EF3D44E005F8C54 /* Build configuration list for PBXProject "SagarM_Demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				186C4BC02EF3D451005F8C54 /* Debug */,
+				186C4BC12EF3D451005F8C54 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		186C4BBD2EF3D451005F8C54 /* Build configuration list for PBXNativeTarget "SagarM_Demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				186C4BBE2EF3D451005F8C54 /* Debug */,
+				186C4BBF2EF3D451005F8C54 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		186C4BC22EF3D451005F8C54 /* Build configuration list for PBXNativeTarget "SagarM_DemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				186C4BC32EF3D451005F8C54 /* Debug */,
+				186C4BC42EF3D451005F8C54 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		186C4BC52EF3D451005F8C54 /* Build configuration list for PBXNativeTarget "SagarM_DemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				186C4BC62EF3D451005F8C54 /* Debug */,
+				186C4BC72EF3D451005F8C54 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		186C4C172EF50690005F8C54 /* SagarM_demo.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				186C4C182EF50690005F8C54 /* SagarM_demo.xcdatamodel */,
+			);
+			currentVersion = 186C4C182EF50690005F8C54 /* SagarM_demo.xcdatamodel */;
+			path = SagarM_demo.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 186C4B892EF3D44E005F8C54 /* Project object */;
+}
